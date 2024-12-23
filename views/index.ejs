@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript Generator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>PDPM IIITDM Jabalpur</h1>
+        </div>
+        <form action="/upload" method="post" enctype="multipart/form-data" id="transcriptForm">
+            <label for="uploadFile">Upload Excel File</label>
+            <input type="file"  name="file" id="uploadFile" accept=".xlsx, .xls" required>
+            <button type="submit">Upload Data</button>
+        </form>
+    </div>
+</body>
+</html>
